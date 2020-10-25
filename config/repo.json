@@ -3,7 +3,8 @@
         "name": "IBM Watson",
         "color": "#3f66b9",
         "tags": [
-            "Watson Assistant"
+            "Watson Assistant",
+            "Chatbot"
         ]
     }
 }
