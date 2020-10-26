@@ -1,10 +1,23 @@
 {
+    "cloud": {
+      "name": "IBM Clound",
+      "color": "#0D47A1",
+      "tags": ["Watson Assistant"]
+    },
     "others": {
         "name": "IBM Watson",
         "color": "#3f66b9",
         "tags": [
             "Watson Assistant",
             "Chatbot"
+        ]
+    },
+    "database": {
+        "name": "MongoDB",
+        "color": "#388E3C",
+        "tags": [
+            "Jdbc4",
+            "Css3"
         ]
     }
 }
