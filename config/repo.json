@@ -1,31 +1,47 @@
 {
-   "cloud":[
+  "profile": {
+    "pt": {
+      "kind": "Open Source",
+      "name": "Um Boilerplate do Watson Assistant Para Avaliar e Gerar Relatórios de Conversas",
+      "intro": "Este é um Watson Assistant Workspace Chatbot que foi construído como um Boilerplate para projetos iniciais ou em andamento, que permite ao usuário avaliar as respostas entregues ao bot e coletar feedback do usuário."
+    },
+    "en": {
+      "kind": "Open Source",
+      "name": "A Watson Assistant Boilerplate To Evaluate And Generate Reports Of The Conversations",
+      "intro": "This is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback."
+    },
+    "es": {
+      "kind": "Open Source",
+      "name": "Un Boilerplate de Watson Assistant Para Evaluar y Generar Informes de Las Conversaciones",
+      "intro": "Este es un Chatbot de Watson Assistant Workspace que se creó como modelo estándar para proyectos iniciales o en curso, lo que permite al usuario evaluar las respuestas enviadas al bot y recopilar comentarios de los usuarios."
+    }
+  },
+  "stack": {
+    "cloud": [
       {
-         "name":"IBM Cloud",
-         "color":"#0D47A1",
-         "tags":[
-            "Watson Assistant"
-         ]
+        "name": "IBM Cloud",
+        "tags": [
+          "Watson Assistant"
+        ]
       }
-   ],
-   "others":[
+    ],
+    "others": [
       {
-         "name":"IBM Watson",
-         "color":"#3f66b9",
-         "tags":[
-            "Watson Assistant",
-            "Chatbot"
-         ]
+        "name": "IBM Watson",
+        "tags": [
+          "Watson Assistant",
+          "Chatbot"
+        ]
       }
-   ],
-   "database":[
+    ],
+    "database": [
       {
-         "name":"MongoDB",
-         "color":"#388E3C",
-         "tags":[
-            "Robo3T",
-            "MongoDB v4"
-         ]
+        "name": "MongoDB",
+        "tags": [
+          "Robo3T",
+          "MongoDB v4"
+        ]
       }
-   ]
+    ]
+  }
 }
