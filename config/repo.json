@@ -1,18 +1,18 @@
 {
   "profile": {
     "pt": {
-      "kind": "Open Source",
+      "kind": "Open Source - Artigos",
       "name": "Um Template do Watson Assistant Para Avaliar e Gerar Relatórios de Conversas",
-      "intro": "Este é um Watson Assistant Workspace Chatbot que foi construído como um Boilerplate para projetos iniciais ou em andamento, que permite ao usuário avaliar as respostas entregues ao bot e coletar feedback do usuário."
+      "intro": "Disponibilizado como um artigo no Medium.com, Este é um Watson Assistant Workspace Chatbot que foi construído como um Boilerplate para projetos iniciais ou em andamento, que permite ao usuário avaliar as respostas entregues ao bot e coletar feedback do usuário."
     },
     "en": {
-      "kind": "Open Source",
-      "name": "A Watson Assistant Template To Evaluate And Generate Reports Of The Conversations",
+      "kind": "Open Source - Articles",
+      "name": "Available as an article on Medium.com, this is a Watson Assistant Template To Evaluate And Generate Reports Of The Conversations",
       "intro": "This is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback."
     },
     "es": {
-      "kind": "Open Source",
-      "name": "Un Template de Watson Assistant Para Evaluar y Generar Informes de Las Conversaciones",
+      "kind": "Open Source - Artículos",
+      "name": "Disponible como artículo en Medium.com, esto es un Template de Watson Assistant Para Evaluar y Generar Informes de Las Conversaciones",
       "intro": "Este es un Chatbot de Watson Assistant Workspace que se creó como modelo estándar para proyectos iniciales o en curso, lo que permite al usuario evaluar las respuestas enviadas al bot y recopilar comentarios de los usuarios."
     }
   },
