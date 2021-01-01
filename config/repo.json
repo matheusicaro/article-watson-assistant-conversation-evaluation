@@ -5,6 +5,11 @@
       "name": "Um Template do Watson Assistant Para Avaliar e Gerar Relatórios de Conversas",
       "intro": "Disponibilizado como um artigo no Medium.com, Este é um Watson Assistant Workspace Chatbot que foi construído como um Boilerplate para projetos iniciais ou em andamento, que permite ao usuário avaliar as respostas entregues ao bot e coletar feedback do usuário."
     },
+    "fr": {
+        "kind": "Open Source - Nouvelles",
+        "name": "Template de Watson Assistant pour évaluer et générer des rapports de conversation",
+        "intro": "Disponible sous forme d'article sur Medium.com, il s'agit d'un chatbot Watson Assistant Workspace qui a été construit comme Boilerplate pour les projets initiaux ou en cours, ce qui permet à l'utilisateur d'évaluer les réponses fournies au bot et de recueillir les commentaires des utilisateurs."
+      },
     "en": {
       "kind": "Open Source - Articles",
       "name": "A Watson Assistant Template To Evaluate And Generate Reports Of The Conversations",
@@ -20,27 +25,19 @@
     "cloud": [
       {
         "name": "IBM Cloud",
-        "tags": [
-          "Watson Assistant"
-        ]
+        "tags": ["Watson Assistant"]
       }
     ],
     "others": [
       {
         "name": "IBM Watson",
-        "tags": [
-          "Watson Assistant",
-          "Chatbot"
-        ]
+        "tags": ["Watson Assistant", "Chatbot"]
       }
     ],
     "database": [
       {
         "name": "MongoDB",
-        "tags": [
-          "Robo3T",
-          "MongoDB v4"
-        ]
+        "tags": ["Robo3T", "MongoDB v4"]
       }
     ]
   }
