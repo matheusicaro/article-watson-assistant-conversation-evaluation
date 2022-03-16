@@ -8,7 +8,7 @@
 
 ## Part - 1: Chatbot in production? Generate report for evaluation of responses in Watson Assistant 
 
-![img-1](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/1.gif)
+![img-1](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/1.gif)
 <br>
 <br>
 
@@ -34,7 +34,7 @@ Let’s start!
 
 In common projects, the sprint design of Chatbot is designed in a flow of interactions that are messages exchanged with the user until arriving at a final answer that will solve a certain problem or bring the information sought by the user. See the example below:
 
-![img-2](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/2.png)
+![img-2](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/2.png)
 
 
 In this dialog, we can realize that the user problem has been solved with the intention of changing your password, #access. However, we might not have noticed some user dissatisfaction with the delivered response in analyzing of reports the conversations between chatbot and users.
@@ -51,9 +51,9 @@ The objective is to evaluate the responses that are delivered by a chatbot, and 
 Now see below the dialog following the new implementation:
 
 
-![img-3](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/3.png)
+![img-3](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/3.png)
 
-![img-4](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/4.png)
+![img-4](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/4.png)
 
 
 In summary of the image, the following interaction was performed:
@@ -76,7 +76,7 @@ In summary of the image, the following interaction was performed:
 As a purpose of this short story, we will implement this response assessment in Watson Assistant in a way that is generic to any new project, such as a boilerplate. For the implementation, I will consider that you have a copy of the messages in a database so that it is possible to generate the reports later. Let’s follow the following chatbot implementation architecture:
 
 
-![img-5](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/5.gif)
+![img-5](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/5.gif)
 
 
 1. The users interact with the Watson Assitant through a Front End;
@@ -89,13 +89,13 @@ As a purpose of this short story, we will implement this response assessment in 
 Following the architecture model above, we were able to have a copy of the dialogs in the database.
 
 
-![img-6](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/6.png)
+![img-6](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/6.png)
 
 
 Since we will have all the messages of the conversation flow with Watson Assitant in our database, we can quantify the data and build analysis reports like this:
 
 
-![img-7](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/7.png)
+![img-7](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/7.png)
 
 
 A report like this can help us locate the intentions that have received negative ratings, as we imagined in the beginning for the Service Chatbots that can have huge amounts of dialogs per day, we can work with agility to correct them and also identify the points that are more searched by users.
@@ -113,12 +113,12 @@ In the second part of this story, we will implement step by step Watson Assistan
 - [The workspace of Watson Assistant](https://github.com/matheusicaro/template-watson-assistant-conversation-evaluation/blob/master/skill-Boilerplate-Evaluation-of-Responses.json)
 
 
-![img-8](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/8.png)
+![img-8](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/8.png)
 <div align="center">
 Image [1]: Response Evaluation Report
 </div>
 
-![img-9](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/9.png)
+![img-9](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/9.png)
 <div align="center">
 Image [2]: Report of All Messages of Dialog with Feedback
 </div>
@@ -127,7 +127,7 @@ Image [2]: Report of All Messages of Dialog with Feedback
 For the Watson Assistant processing tree according to the conversation flow in the [first part of this story](#part---1-chatbot-in-production-generate-report-for-evaluation-of-responses-in-watson-assistant), they were implemented as follows:
 
 
-![img-10](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/10.gif)
+![img-10](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/10.gif)
 <div align="center">
 Image [3]: Watson Assistant Processing Tree Flow
 </div>
@@ -136,7 +136,7 @@ Image [3]: Watson Assistant Processing Tree Flow
 Following the stream above representing the navigation in the Watson Assistant dialog tree, we will go through each node of the tree and implement the context variables that will map the data we need to assemble the reports. If you do not know what [context variables](https://www.ibm.com/cloud/blog/enhance-chatbot-conversation-context-variables-system-entities) are and how they work, see this tutorial for a better understanding.
 
 
-![img-11](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/11.png)
+![img-11](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/11.png)
 <div align="center">
 Image [4]: Evaluating Response
 </div>
@@ -147,7 +147,7 @@ Image [4]: Evaluating Response
 3. Also in this node **(@account: email)**, the context variables **$responseDelivered** are set to true because it means that the response has been delivered, and the other **$responseIntention** context variable contains the integer that represents the response contained in this node that goes be identified in the response evaluation reports.
 
 
-![img-12](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/12.png)
+![img-12](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/12.png)
 <div align="center">
 Image [5]: Message Saved in the Database.
 </div>
@@ -168,7 +168,7 @@ Note that when this response is sent to our API Middleware, we will have this ob
 Continuing the flow …
 
 
-![img-13](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/13.png)
+![img-13](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/13.png)
 <div align="center">
 Image [6]: Node to Evaluate Responses
 </div>
@@ -178,7 +178,7 @@ Image [6]: Node to Evaluate Responses
 2. In this **node (Response Evaluation)** were the answer **“Was this answer helpful to you?”** Entered with the options for evaluation, and then should be directed to the internal node. Also, let’s delete **context variables $responseDelivered** because the message has already been delivered in a previous node, right? So let’s delete this variable that still exists in the flow of the dialog so as not to compromise our reports that will be generated later.
 
 
-![img-14](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/14.png)
+![img-14](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/14.png)
 <div align="center">
 Image [7]: Deleting Context Variable $responseDelivered
 </div>
@@ -190,20 +190,20 @@ Image [7]: Deleting Context Variable $responseDelivered
 6. In this step when accessing the settings of each response, we will configure two new **context variables** that will map the response that was entered by the user. When evaluating positive by selecting the option **“Yes, it helped me.”** Let’s map as **$responseAvaliationUser = “positive”** and for negative evaluation we will map as **$responseAvaliationUser = “negative”**.
 
 
-![img-15](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/15.png)
+![img-15](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/15.png)
 <div align="center">
 Image [8]: Configuring Answers from Step 6.
 </div>
 
 
-![img-16](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/16.png)
+![img-16](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/16.png)
 <div align="center">
 Image [9]: Message Saved From Step 6 Answers.
 </div>
 
 After collecting the user’s evaluation and continuing our dialogue flow in the tree, when it is evaluated as negative we will direct it to a Feedback node in order to collect the feedback.
 
-![img-17](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/17.png)
+![img-17](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/17.png)
 <div align="center">
 Image [10]: Node to Collect Feedback.
 </div>
@@ -218,7 +218,7 @@ Image [10]: Node to Collect Feedback.
 <div align="center">...</div>
 
 
-![img-18](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/18.png)
+![img-18](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/18.png)
 <div align="center">
 Image [11]: Internal Node Collecting Feedback.
 </div>
@@ -238,7 +238,7 @@ Image [11]: Internal Node Collecting Feedback.
 In this way, for the options offered we will perform the treatment for each option according to the image below, and this node is conditioned to true because after the user interacts, we want to be accessed this node for confirmations in the feedback collection process.
 
 
-![img-19](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/19.png)
+![img-19](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/19.png)
 <div align="center">
 Image [12]: Node Responsible for Finalizing the Feedback Process.
 </div>
@@ -253,7 +253,7 @@ Image [12]: Node Responsible for Finalizing the Feedback Process.
 For the internal options of the node at the image [10], we have:
 
 
-![img-20](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/20.png)
+![img-20](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/20.png)
 <div align="center">
 Image [13]: Node Options of Image [10].
 </div>
@@ -262,8 +262,8 @@ Image [13]: Node Options of Image [10].
 1. For the **positive optio**n recognized by Watson Assistant, let’s set a **$feedbackApproved** environment variable to true, which should map the feedback is correct and mark it in the database.
 
 
-![img-21](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/21.png)
-![img-22](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/22.png)
+![img-21](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/21.png)
+![img-22](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/22.png)
 <div align="center">
 Image [14]: Feedback Message Saved in the Database.
 </div>
@@ -281,13 +281,13 @@ Now, to generate the reports demonstrated at the beginning, it is necessary to d
 - Search for all messages that have been delivered with the respective topics…
 
 
-![img-23](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/23.png)
+![img-23](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/23.png)
 
 
 - Search for all messages that have been evaluated as negative…
 
 
-![img-24](https://https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/24.png)
+![img-24](https://github.com/matheusicaro/article-watson-assistant-conversation-evaluation/blob/master/article/images/24.png)
 
 
 <div align="center">...</div>
