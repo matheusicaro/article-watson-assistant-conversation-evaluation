@@ -2,22 +2,22 @@
   "profile": {
     "pt": {
       "kind": "Open Source - Artigos",
-      "name": "Um Template do Watson Assistant Para Avaliar e Gerar Relatórios de Conversas",
+      "name": "Chatbot em produção? Gere um relatório para a avaliação de respostas no Watson Assistant",
       "intro": "Disponibilizado como um artigo no Medium.com, Este é um Watson Assistant Workspace Chatbot que foi construído como um Boilerplate para projetos iniciais ou em andamento, que permite ao usuário avaliar as respostas entregues ao bot e coletar feedback do usuário."
     },
     "fr": {
       "kind": "Open Source - Des articles",
-        "name": "Template de Watson Assistant pour évaluer et générer des rapports de conversation",
+        "name": "TChatbot en production ? Générer un rapport pour l'évaluation des réponses dans Watson Assistant",
         "intro": "Disponible sous forme d'article sur Medium.com, il s'agit d'un chatbot Watson Assistant Workspace qui a été construit comme Boilerplate pour les projets initiaux ou en cours, ce qui permet à l'utilisateur d'évaluer les réponses fournies au bot et de recueillir les commentaires des utilisateurs."
       },
     "en": {
       "kind": "Open Source - Articles",
-      "name": "A Watson Assistant Template To Evaluate And Generate Reports Of The Conversations",
-      "intro": "Available as an article on Medium.com, this is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback."
+      "name": "Chatbot in production? Generate a report for the evaluation of responses in Watson Assistant",
+      "intro": "Available as an article at Medium.com, this is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback."
     },
     "es": {
       "kind": "Open Source - Artículos",
-      "name": "Template de Watson Assistant Para Evaluar y Generar Informes de Las Conversaciones",
+      "name": "¿Bot conversacional en producción? Genere un informe para la evaluación de respuestas en Watson Assistant",
       "intro": "Disponible como artículo en Medium.com, este es un Chatbot de Watson Assistant Workspace que se creó como modelo estándar para proyectos iniciales o en curso, lo que permite al usuario evaluar las respuestas enviadas al bot y recopilar comentarios de los usuarios."
     }
   },

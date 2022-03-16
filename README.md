@@ -1,11 +1,14 @@
-# watson-assistant-boilerplate-evaluations-report
+# Article: Chatbot in production? Generate report for evaluation of responses in Watson Assistant 
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)](https://github.com/matheusicaro/template-watson-assistant-conversation-evaluation/blob/master/LICENSE)
+
+## Summary:
+
+- [Intro](#intro)
+- [Watson Workspace Template](https://github.com/matheusicaro/template-watson-assistant-conversation-evaluation/blob/master/skill-Boilerplate-Evaluation-of-Responses.json)
 
 ## Introduction
 
-This is a Watson Assistant Workspace that was built for a Boilerplate for initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback.
-
-For a better understanding of the creation of this boilerplate, read this story.
+Available as an article at Medium.com, this is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback.
 
 * [Chatbot in production? Generate report for evaluation of responses in Watson Assistant — Part 1](https://medium.com/@matheusicaro/chatbot-in-production-response-report-evaluation-part-1-1e17dc35f0ea)
 * [Chatbot in production? Generate report for evaluation of responses in Watson Assistant — Part 2](https://medium.com/@matheusicaro/chatbot-in-production-generate-report-for-evaluation-of-responses-in-watson-assistant-part-2-b4ed26b2699e)
