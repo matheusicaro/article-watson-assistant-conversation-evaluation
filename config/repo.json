@@ -21,6 +21,7 @@
       "intro": "Disponible como artículo en Medium.com, este es un Chatbot de Watson Assistant Workspace que se creó como modelo estándar para proyectos iniciales o en curso, lo que permite al usuario evaluar las respuestas enviadas al bot y recopilar comentarios de los usuarios."
     }
   },
+  "tags": ["IBM-Cloud", "Watson Assistant", "Chatbot", "MongoDB"],
   "stack": {
     "cloud": [
       {
