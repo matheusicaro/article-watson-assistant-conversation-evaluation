@@ -8,7 +8,7 @@
 
 ## Introduction
 
-Available as an article at Medium.com, this is a Watson Assistant Workspace Chatbot that was built as a Boilerplate to initial or ongoing projects, which allows the user to evaluate responses delivered to the bot and collect user feedback.
+For this article, I show how is possible to build reports for evaluation of responses in Watson Assistant, which allows the business sector to analyze the ChatBot user's feedback automatically.
 
 * [Chatbot in production? Generate report for evaluation of responses in Watson Assistant — Part 1](https://medium.com/@matheusicaro/chatbot-in-production-response-report-evaluation-part-1-1e17dc35f0ea)
 * [Chatbot in production? Generate report for evaluation of responses in Watson Assistant — Part 2](https://medium.com/@matheusicaro/chatbot-in-production-generate-report-for-evaluation-of-responses-in-watson-assistant-part-2-b4ed26b2699e)
