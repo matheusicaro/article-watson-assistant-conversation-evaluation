@@ -1,21 +1,21 @@
 {
   "profile": {
     "pt": {
-      "kind": "Open Source - Artigos",
+      "kind": "Artigos",
       "name": "Chatbot em produção? Gere um relatório para a avaliação de respostas no Watson Assistant",
       "intro": "Para este artigo, mostro como é possível construir relatórios para avaliação de respostas no Watson Assistant, que permite a area de negocio analisar o feedback do usuário do ChatBot automaticamente."
     },
     "fr": {
-      "kind": "Open Source - Des articles",
+      "kind": "Articles",
         "name": "Pour cet article, je montre comment vous pouvez créer des rapports pour évaluer les réponses dans Watson Assistant, ce qui permet au domaine d'activité d'analyser automatiquement les commentaires des utilisateurs de ChatBot."
       },
     "en": {
-      "kind": "Open Source - Articles",
+      "kind": "Articles",
       "name": "Chatbot in production? Generate a report for the evaluation of responses in Watson Assistant",
       "intro": "For this article, I show how you can build reports to evaluate responses in Watson Assistant, which allows the business area to analyze ChatBot user feedback automatically."
     },
     "es": {
-      "kind": "Open Source - Artículos",
+      "kind": "Artículos",
       "name": "¿Bot conversacional en producción? Genere un informe para la evaluación de respuestas en Watson Assistant",
       "intro": "Para este artículo, muestro cómo puede crear informes para evaluar las respuestas en Watson Assistant, lo que permite que el área comercial analice los comentarios de los usuarios de ChatBot automáticamente."
     }
